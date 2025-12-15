@@ -1,0 +1,5 @@
+export const HttpStatus = {
+  SUCCESS: "success",
+  FAIL: "fail",
+  ERROR: "error"
+};
