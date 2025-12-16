@@ -7,6 +7,7 @@ import {errorHandler} from "./middlewares/errorHandler.js";
 import {HttpStatus} from "./utils/httpStatusText.js";
 import {AppResponse} from "./dto/app-response.dto.js";
 import {departmentRouter} from "./routes/department.route.js";
+import {doctorRouter} from "./routes/doctor.route.js";
 
 const app = express();
 app.use(express.json());
@@ -20,6 +21,7 @@ await connectDb();
 
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/departments', departmentRouter);
+app.use('/api/v1/doctors', doctorRouter);
 
 app.use((req, res, next) => {
     return res.status(404).json(AppResponse(HttpStatus.ERROR, `This resource '${req.path}' not found`, null));
