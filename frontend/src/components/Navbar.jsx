@@ -1,8 +1,10 @@
 import React, {useContext} from 'react';
 import {Link} from 'react-router-dom';
+import {AuthContext} from '../context/AuthContext';
 import {HashLink} from "react-router-hash-link";
 
 function Navbar() {
+    const {user, logout} = useContext(AuthContext);
     return (
         <nav className='bg-white shadow-md text-[#008e9b] flex justify-between'>
             <div>
