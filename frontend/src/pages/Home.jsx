@@ -3,6 +3,7 @@ import HeroSlider from "../components/HeroSlider";
 import CallToAction from "../components/CallToAction";
 import About from "../components/About";
 import Stats from "../components/Stats";
+import Departments from "../components/Departments";
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <CallToAction />
             <About />
             <Stats />
+            <Departments/>
         </div>
     )
 }
