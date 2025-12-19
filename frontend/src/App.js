@@ -5,6 +5,8 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import AddDepartment from "./pages/AddDepartment";
 import AddDoctor from "./pages/AddDoctor";
+import AllDoctors from "./pages/AllDoctors";
+import { ToastContainer } from "react-toastify";
 
 function App() {
     return (
@@ -15,8 +17,11 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/add-department" element={<AddDepartment />} />
-                <Route path="/add-doctor" element={<AddDoctor/>}/>
+                <Route path="/add-doctor" element={<AddDoctor />} />
+                <Route path="/doctors" element={<AllDoctors />} />
             </Routes>
+
+            <ToastContainer position="top-right" autoClose={3000} />
         </>
     );
 }
