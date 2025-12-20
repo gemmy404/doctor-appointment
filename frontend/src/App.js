@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 import AddDepartment from "./pages/AddDepartment";
 import AddDoctor from "./pages/AddDoctor";
 import AllDoctors from "./pages/AllDoctors";
