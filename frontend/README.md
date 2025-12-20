@@ -139,17 +139,17 @@ The app will run on `http://localhost:3000`
     </td>
     <td width="50%">
       <h3 align="center">Doctor Details</h3>
-      <img src="./screenshots/doctor-details.png" alt="Doctor Details" />
+      <img src="../screenshots/doctor-details.png" alt="Doctor Details" />
     </td>
   </tr>
   <tr>
     <td width="50%">
       <h3 align="center">Add Appointment</h3>
-      <img src="./screenshots/add-appointment.png" alt="Add Appointment" />
+      <img src="../screenshots/add-appointment.png" alt="Add Appointment" />
     </td>
     <td width="50%">
       <h3 align="center">My Appointments</h3>
-      <img src="./screenshots/my-appointments.png" alt="My Appointments" />
+      <img src="../screenshots/my-appointments.png" alt="My Appointments" />
     </td>
   </tr>
   <tr>
@@ -165,11 +165,11 @@ The app will run on `http://localhost:3000`
   <tr>
     <td width="50%">
       <h3 align="center">Add Doctor (Admin)</h3>
-      <img src="./screenshots/add-doctor.png" alt="Add Doctor" />
+      <img src="../screenshots/add-doctor.png" alt="Add Doctor" />
     </td>
     <td width="50%">
       <h3 align="center">Add Department (Admin)</h3>
-      <img src="./screenshots/add-department.png" alt="Add Department" />
+      <img src="../screenshots/add-department.png" alt="Add Department" />
     </td>
   </tr>
 </table>
