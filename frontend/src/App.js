@@ -8,6 +8,8 @@ import AddDoctor from "./pages/AddDoctor";
 import AllDoctors from "./pages/AllDoctors";
 import DoctorDetails from "./pages/DoctorDetails";
 import { ToastContainer } from "react-toastify";
+import MyAppointments from "./pages/MyAppointments";
+import AddAppointment from "./pages/AddAppointment";
 
 function App() {
     return (
@@ -17,6 +19,8 @@ function App() {
                 <Route index path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/add-appointment" element={<AddAppointment/>}/>
+                <Route path="/my-appointments" element={<MyAppointments/>}/>
                 <Route path="/add-department" element={<AddDepartment />} />
                 <Route path="/add-doctor" element={<AddDoctor />} />
                 <Route path="/doctors" element={<AllDoctors />} />
